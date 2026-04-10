@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://nryp1dvji4yp"]
 
 [ext_resource type="Texture2D" uid="uid://c8fekp5r47mlk" path="res://assets/player/Tiny Swordmaster/long_sprite.png" id="1_oul6g"]
+[ext_resource type="Texture2D" uid="uid://djy65qyrxsily" path="res://assets/player/Tiny Swordmaster/vfx_sprites.png" id="2_rkbax"]
 
 [sub_resource type="Animation" id="Animation_qjkh3"]
 resource_name = "Attack_1"
@@ -139,6 +140,9 @@ texture = ExtResource("1_oul6g")
 hframes = 58
 
 [node name="Vfx_Sprites" type="Sprite2D" parent="." unique_id=1973327487]
+texture = ExtResource("2_rkbax")
+hframes = 35
+frame = 6
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=8567848]
 libraries/ = SubResource("AnimationLibrary_g1dw6")
