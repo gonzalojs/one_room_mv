@@ -136,13 +136,13 @@ _data = {
 [node name="Player" type="CharacterBody2D" unique_id=2029692805]
 
 [node name="Animation_Sprites" type="Sprite2D" parent="." unique_id=1766539190]
+visible = false
 texture = ExtResource("1_oul6g")
 hframes = 58
 
 [node name="Vfx_Sprites" type="Sprite2D" parent="." unique_id=1973327487]
 texture = ExtResource("2_rkbax")
-hframes = 35
-frame = 6
+hframes = 24
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=8567848]
 libraries/ = SubResource("AnimationLibrary_g1dw6")
